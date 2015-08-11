@@ -11,9 +11,9 @@
     if(!value.length) {
       return false;
 
-    // Zero is considered a falsy value as well
-    } else if(value === '0') {
-      return false;
+    // Any number above zero is considered a truthy value
+    } else if(!isNaN(Number(value))) {
+      return value > 0;
 
     // Any value not marked as a truthy value is automatically falsy
     } else {
