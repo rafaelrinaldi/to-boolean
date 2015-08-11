@@ -1,0 +1,32 @@
+{
+  "name": "to-boolean",
+  "main": "index.js",
+  "version": "1.0.0",
+  "homepage": "https://github.com/rafaelrinaldi/to-boolean",
+  "authors": [
+    "Rafael Rinaldi <rafael@rinaldi.io>"
+  ],
+  "description": "Convert strings to boolean.",
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "boolean",
+    "string",
+    "convert",
+    "conversion",
+    "type",
+    "parse",
+    "parser"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
