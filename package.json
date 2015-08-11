@@ -1,0 +1,28 @@
+{
+  "name": "to-boolean",
+  "version": "1.0.0",
+  "description": "Convert strings to boolean.",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafaelrinaldi/to-boolean.git"
+  },
+  "keywords": [
+    "boolean",
+    "string",
+    "convert",
+    "conversion",
+    "type",
+    "parse",
+    "parser"
+  ],
+  "author": "Rafael Rinaldi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rafaelrinaldi/to-boolean/issues"
+  },
+  "homepage": "https://github.com/rafaelrinaldi/to-boolean#readme"
+}
