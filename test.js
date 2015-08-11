@@ -9,3 +9,13 @@ test('truthy values', function(t) {
   t.deepEqual(toBoolean('true'), true, '"true" is "true"');
   t.end();
 });
+
+test('falsy', function(t) {
+  t.deepEqual(toBoolean('n'), false, '"n" is "false"');
+  t.deepEqual(toBoolean('no'), false, '"no" is "false"');
+  t.deepEqual(toBoolean('false'), false, '"false" is "false"');
+  t.deepEqual(toBoolean(''), false, 'empty string is "false"');
+  t.deepEqual(toBoolean('        '), false, 'giant empty string is "false"');
+  t.deepEqual(toBoolean('0'), false, '"0" is "false"');
+  t.end();
+});
