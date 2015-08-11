@@ -24,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/rafaelrinaldi/to-boolean/issues"
   },
-  "homepage": "https://github.com/rafaelrinaldi/to-boolean#readme"
+  "homepage": "https://github.com/rafaelrinaldi/to-boolean#readme",
+  "devDependencies": {
+    "tape": "^4.0.3"
+  }
 }
