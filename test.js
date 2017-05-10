@@ -18,5 +18,6 @@ test('falsy', function(t) {
   t.deepEqual(toBoolean(''), false, 'empty string is "false"');
   t.deepEqual(toBoolean('        '), false, 'giant empty string is "false"');
   t.deepEqual(toBoolean('0'), false, '"0" is "false"');
+  t.deepEqual(toBoolean(undefined), false, 'undefined is false');
   t.end();
 });

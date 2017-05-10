@@ -3,6 +3,10 @@
   var TRUTHY_VALUES = 'y yes true'.split(/\s/);
 
   function toBoolean(value) {
+    if(value === undefined) {
+        return false;    	
+    }
+
     value = value.toString();
     value = value.trim();
     value = value.toLowerCase();
