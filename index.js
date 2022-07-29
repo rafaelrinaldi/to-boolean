@@ -17,7 +17,7 @@
 
     // Any value not marked as a truthy value is automatically falsy
     } else {
-      return TRUTHY_VALUES.indexOf(value) >= 0;
+      return TRUTHY_VALUES.includes(value);
     }
   }
 
